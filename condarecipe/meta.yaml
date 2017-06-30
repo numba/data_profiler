@@ -1,0 +1,37 @@
+package:
+  name: data_profiler
+  version: {{ environ.get('GIT_DESCRIBE_TAG','') }}
+
+source:
+  path: ..
+
+build:
+  number: {{ GIT_DESCRIBE_NUMBER|int }}
+  # needed so cross compilation flags are picked up from bb env
+  script_env:
+    - CFLAGS
+    - CXXFLAGS
+    - PY_VCRUNTIME_REDIST
+  
+requirements:
+  build:
+    - python
+  run:
+    - python
+    - numpy
+    - numba >=0.26.0
+    - libgfortran [linux32 or linux64]
+    - snakeviz
+    - jupyter
+
+test:
+  source_files:
+    - tests
+  requires:
+    - pytest
+    - scipy
+  imports:
+    - data_profiler
+  commands:
+    - profiler -h
+    - python -m pytest tests
