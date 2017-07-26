@@ -1,4 +1,4 @@
-include README.md setup.py setup.cfg MANIFEST.in
+include README.rst setup.py setup.cfg MANIFEST.in
 include versioneer.py
 include data_profiler/_version.py
 

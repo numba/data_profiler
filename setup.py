@@ -53,10 +53,14 @@ package_data['data_profiler'] = ['snakeviz/template.jinja',
 
 ext_modules = [prof_module]
 
+with open('README.rst', 'r') as f:
+    long_description = f.read()
+
 if __name__ == '__main__':
     setup(
         name='data_profiler',
         description='Data Profiler',
+        long_description=long_description,
         author='Continuum Analytics, Inc.',
         author_email='support@continuum.io',
         url='http://continuum.io',
