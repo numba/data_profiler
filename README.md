@@ -10,7 +10,7 @@ snakeviz.
 This module is a direct port of `Accelerate.profiler` available in [Anaconda
 Accelerate](https://docs.continuum.io/accelerate/profiling).
 
-Documentation is located [here](LINK_TO_DOCS)
+Documentation is located [here](http://data-profiler.readthedocs.io/en/latest/)
 
 ## Installing
 
@@ -49,7 +49,7 @@ and the installation can be tested with:
 
 ## Documentation
 
-Documentation is located [here](LINK_TO_DOCS).
+Documentation is located [here](http://data-profiler.readthedocs.io/en/latest/).
 
 ### Building Documentation
 
