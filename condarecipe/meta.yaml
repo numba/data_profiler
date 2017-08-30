@@ -35,3 +35,9 @@ test:
   commands:
     - profiler -h
     - python -m pytest tests
+
+about:
+    home: https://github.com/numba/data_profiler
+    license: BSD
+    license_file: LICENSE
+    summary: An augmented version of cProfile and Snakeviz.
