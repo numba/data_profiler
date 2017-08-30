@@ -15,7 +15,7 @@ Documentation is located [here](http://data-profiler.readthedocs.io/en/latest/)
 ## Installing
 
 The easiest way to install data\_profiler and get updates is by using the
-[Anaconda Distribution](https://www.continuum.io/downloads)
+[Anaconda Distribution](https://www.anaconda.com/download)
 
 ```
 #> conda install data_profiler

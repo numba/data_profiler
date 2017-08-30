@@ -57,9 +57,9 @@ if __name__ == '__main__':
     setup(
         name='data_profiler',
         description='Data Profiler',
-        author='Continuum Analytics, Inc.',
-        author_email='support@continuum.io',
-        url='http://continuum.io',
+        author='Anaconda, Inc.',
+        author_email='support@anaconda.com',
+        url='https://anaconda.com',
         packages=packages,
         package_data=package_data,
         ext_modules=ext_modules,
